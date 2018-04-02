@@ -1,4 +1,4 @@
-
+``` bash
 #使用vue-cli快速构建项目
 npm install -g vue-cli
 vue init webpack project-name
@@ -10,8 +10,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/calazhi/SCP-Project.git
 git push -u origin master
 
-# 说明：https://github.com/calazhi/SCP-Project.git 是想要关联到的远程仓库地址
-
+#说明：https://github.com/calazhi/SCP-Project.git 是想要关联到的远程仓库地址
+```
 
 # egsc-admin-UI
 
