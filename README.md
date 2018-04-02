@@ -1,15 +1,16 @@
 
-#2017-12-28
-1.前端公共框架egsc-admin-UI添加location.search === '?mock'过滤，http://url?mock支持开启mock数据展示
-2.修改 [vuex] unknown报错问题
-#2017-12-25
-1.前端公共框架egsc-admin-UI添加ES6转ES5的支持，支持IE浏览器下可访问
-添加了babel-polyfill支持,需要npm install 或 npm update
+#使用vue-cli快速构建项目
+npm install -g vue-cli
+vue init webpack project-name
 
+#项目框架搭建好后，把项目跟远程仓库关联起来
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/calazhi/SCP-Project.git
+git push -u origin master
 
-#2017-12-13
-1.前端公共框架egsc-admin-UI页面结构实现菜单的可切换，一级菜单展示，二级，三级菜单可展示及切换
-
+# 说明：https://github.com/calazhi/SCP-Project.git 是想要关联到的远程仓库地址
 
 
 # egsc-admin-UI
